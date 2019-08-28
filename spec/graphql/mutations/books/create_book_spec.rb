@@ -3,7 +3,7 @@ require "rails_helper"
 module Mutations
   module Books
     RSpec.describe CreateBook, type: :request do
-      describe ".resolve" do
+      describe "resolve" do
         it "creates a book" do
           author = create(:author)
 
